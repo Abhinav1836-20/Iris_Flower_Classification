@@ -1,5 +1,7 @@
 # Iris_Flower_Classification
 This is a project done on the iris flower that aims to classify iris flowers into three species Setosa, Versicolor, and Virginica based on their physical features like sepal length, sepal width, petal length, and petal width.
+
+
 The project utilizes NumPy for handling numerical computations and Pandas for efficient data manipulation and analysis. Seaborn and Matplotlib support visual exploration of the dataset, providing clear insights into the relationships among features through scatter plots, pair plots, and correlation heatmaps. The dataset is obtained using the load_iris function from the sklearn.datasets module, offering a clean, well-labeled collection of samples suitable for classification.
 The data is divided into training and testing subsets with train_test_split from sklearn.model_selection, ensuring that model evaluation is unbiased and based on unseen data. StandardScaler standardizes the feature values to ensure uniformity in scale and improving model performance.
 Logistic Regression from sklearn.linear_model serves as the core algorithm for classification, using mathematical modeling to estimate the probability that each sample belongs to a specific iris species.
